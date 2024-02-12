@@ -1,16 +1,25 @@
 ﻿* {
     box-sizing: border-box;
-    background-color: red;
-}
-
-body {
-    font-size: 14px;
-}
-
-.main-container {
+    background-image: src(".\images\bg-image.png"); /*bg image, don't work*/
     width: 100%;
-    height: 976px;
-    background: none;
+    height: 100%;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.landing {
+    width: 100%;
+    height: 1024px;
+    background: rgba(245,245,245,1);
     opacity: 1;
     position: relative;
     top: 0px;
@@ -18,157 +27,125 @@ body {
     overflow: hidden;
 }
 
-.header-container {
+.forland {
     width: 100%;
-    height: 101px;
-    background: url("../images/header-background.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 36px;
-    left: 62px;
-    overflow: hidden;
-}
-
-.navigation-container {
-    width: 100%;
-    height: 101px;
-    background: url("../images/navigation-background.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    height: 100%;
     opacity: 1;
     position: relative;
     top: 0px;
     left: 0px;
+}
+
+.new {
+    width: 100%;
+    height: 109px;
+    background: url("../images/v6_138.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: fixed;
+    top: 0px;
+    left: 1px;
     overflow: hidden;
 }
 
-.logo {
-    width: 314px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 4px;
-    left: 0px;
-    font-family: Nosifer;
-    font-weight: Regular;
-    font-size: 36px;
+.div_1 {
+    width: 100%;
+    height: 80px;
+    background: rgba(63,100,97,0.8500000238418579);
     opacity: 1;
-    text-align: left;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border-bottom-left-radius: 134px;
+    border-bottom-right-radius: 134px;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
 }
 
-.tagline {
-    width: 411px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 0px;
-    left: 888px;
-    font-family: Nosifer;
-    font-weight: Regular;
+.img {
+    width: 100%;
+    height: 59px;
+    background: url("../images/v2_91.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: fixed;
+    top: 14px;
+    left: 54px;
+    overflow: hidden;
+}
+
+.events {
+    width: 115px;
+    color: rgba(233,229,227,1);
+    position: fixed;
+    top: 15px;
+    left: 100px;
+    font-family: Kurale;
     font-size: 30px;
     opacity: 1;
-    text-align: center;
+    text-align: left;
 }
 
-.nav-item1 {
-    width: 54px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 21px;
-    left: 428px;
-    font-family: Roboto;
-    font-weight: Bold;
-    font-size: 20px;
+.teaparty {
+    width: 154px;
+    color: rgba(233,229,227,1);
+    position: fixed;
+    top: 15px;
+    left: 307px;
+    font-family: Kurale;
+    font-size: 30px;
     opacity: 1;
     text-align: left;
 }
 
-.nav-item2 {
-    width: 54px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 21px;
-    left: 570px;
-    font-family: Roboto;
-    font-weight: Bold;
-    font-size: 20px;
+.members {
+    width: 161px;
+    color: rgba(233,229,227,1);
+    position: fixed;
+    top: 15px;
+    left: 513px;
+    font-family: Kurale;
+    font-size: 30px;
     opacity: 1;
     text-align: left;
 }
 
-.nav-item3 {
-    width: 54px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 21px;
-    left: 728px;
-    font-family: Roboto;
-    font-weight: Bold;
-    font-size: 20px;
+.about {
+    width: 151px;
+    color: rgba(233,229,227,1);
+    position: fixed;
+    top: 15px;
+    left: 726px;
+    font-family: Kurale;
+    font-size: 30px;
     opacity: 1;
     text-align: left;
 }
 
-
-
-
-.menu-icon {
-    width: 67px;
-    height: 67px;
-    background: rgba(255,255,255,1);
+.general {
+    width: 136px;
+    color: rgba(233,229,227,1);
+    position: fixed;
+    top: 15px;
+    left: 929px;
+    font-family: Kurale;
+    font-size: 30px;
     opacity: 1;
-    position: absolute;
-    top: 6px;
-    left: 1248px;
-    overflow: hidden;
+    text-align: left;
 }
 
-.menu-inner {
-    width: 31px;
-    height: 67px;
-    background: url("../images/menu-icon.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+.login {
+    width: 253px;
+    color: rgba(233,229,227,1);
+    position: fixed;
+    top: 15px;
+    left: 1117px;
+    font-family: Kurale;
+    font-size: 30px;
     opacity: 1;
-    position: absolute;
-    top: 0px;
-    left: 18px;
-    overflow: hidden;
+    text-align: left;
 }
-
-.menu-bar {
-    width: 31px;
-    height: 67px;
-    background: url("../images/menu-bar.svg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
-}
-
-    .menu-bar:nth-child(1) {
-        top: 0;
-    }
-
-    .menu-bar:nth-child(2) {
-        top: 14px;
-    }
-
-    .menu-bar:nth-child(3) {
-        top: 28px;
-    }
-
-    .menu-bar:nth-child(4) {
-        top: 42px;
-    }
-
-    .menu-bar:nth-child(5) {
-        top: 56px;
-    }
