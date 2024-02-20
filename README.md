@@ -44,6 +44,6 @@
 | Dependency         | Version     | Description                   |
 |--------------------|-------------|-------------------------------|
 | HTML               |       5     | Html for event's page         |
-| CSS                |       -     | CSS for event's page          |
-| JavaScript         |       -     | Some part/js                  |
+| CSS                |       3     | CSS for event's page          |
+| JavaScript         |       -     | -                             |
 
