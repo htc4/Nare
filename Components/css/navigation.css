@@ -1,151 +1,68 @@
 ﻿* {
     box-sizing: border-box;
-    background-image: src(".\images\bg-image.png"); /*bg image, don't work*/
-    width: 100%;
-    height: 100%;
     opacity: 1;
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
 }
 
 html, body {
-    width: 100%;
-    height: 100%;
     margin: 0;
     padding: 0;
 }
 
 .landing {
     width: 100%;
-    height: 1024px;
-    background: rgba(245,245,245,1);
+    height: 80px;
+    background: none;
     opacity: 1;
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     overflow: hidden;
 }
 
 .forland {
     width: 100%;
     height: 100%;
-    opacity: 1;
-    position: relative;
-    top: 0px;
-    left: 0px;
 }
 
 .new {
     width: 100%;
     height: 109px;
-    background: url("../images/v6_138.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
     position: fixed;
-    top: 0px;
+    top: 0;
     left: 1px;
     overflow: hidden;
 }
 
-.div_1 {
+.div1 {
     width: 100%;
     height: 80px;
-    background: rgba(63,100,97,0.8500000238418579);
-    opacity: 1;
+    background: rgba(63,100,97,0.85);
     position: fixed;
-    top: 0px;
-    left: 0px;
+    top: 0%;
+    left: 0;
     border-bottom-left-radius: 134px;
     border-bottom-right-radius: 134px;
-    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.25);
     overflow: hidden;
 }
 
 .img {
-    width: 100%;
-    height: 59px;
-    background: url("../images/v2_91.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: fixed;
-    top: 14px;
-    left: 54px;
-    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 100%;
 }
 
-.events {
-    width: 115px;
+.events, .teaparty, .members, .about, .general, .login {
     color: rgba(233,229,227,1);
-    position: fixed;
-    top: 15px;
-    left: 100px;
     font-family: Kurale;
-    font-size: 30px;
+    font-size: 1.8vw;
     opacity: 1;
-    text-align: left;
-}
-
-.teaparty {
-    width: 154px;
-    color: rgba(233,229,227,1);
-    position: fixed;
-    top: 15px;
-    left: 307px;
-    font-family: Kurale;
-    font-size: 30px;
-    opacity: 1;
-    text-align: left;
-}
-
-.members {
-    width: 161px;
-    color: rgba(233,229,227,1);
-    position: fixed;
-    top: 15px;
-    left: 513px;
-    font-family: Kurale;
-    font-size: 30px;
-    opacity: 1;
-    text-align: left;
-}
-
-.about {
-    width: 151px;
-    color: rgba(233,229,227,1);
-    position: fixed;
-    top: 15px;
-    left: 726px;
-    font-family: Kurale;
-    font-size: 30px;
-    opacity: 1;
-    text-align: left;
-}
-
-.general {
-    width: 136px;
-    color: rgba(233,229,227,1);
-    position: fixed;
-    top: 15px;
-    left: 929px;
-    font-family: Kurale;
-    font-size: 30px;
-    opacity: 1;
-    text-align: left;
-}
-
-.login {
-    width: 253px;
-    color: rgba(233,229,227,1);
-    position: fixed;
-    top: 15px;
-    left: 1117px;
-    font-family: Kurale;
-    font-size: 30px;
-    opacity: 1;
-    text-align: left;
+    text-align: center;
+    margin-bottom: 3%;
+    width: 10%;
 }

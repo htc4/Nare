@@ -1,0 +1,61 @@
+﻿body {
+    background-image: url("./images/bg-image.png")
+}
+
+
+.rectangle1 {
+    width: 85%;
+    height: 107px;
+    background: url("../images/v7_166.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 148px;
+    left: 183px;
+    overflow: hidden;
+}
+
+.rectangle {
+    width: 85%;
+    height: 107px;
+    background: rgba(217,217,217,0.3);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 1px solid rgba(65,98,87,1);
+    border-top-left-radius: 41px;
+    border-top-right-radius: 41px;
+    border-bottom-left-radius: 41px;
+    border-bottom-right-radius: 41px;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.txt {
+    width: 664px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 25px;
+    left: 333px;
+    font-family: Kurale;
+    font-size: 44px;
+    opacity: 1;
+    text-align: left;
+}
+
+.logoimg {
+    width: 87px;
+    height: 87px;
+    background: url("images/logo-image.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    overflow: hidden;
+}
