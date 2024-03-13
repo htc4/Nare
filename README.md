@@ -1,6 +1,7 @@
-```
 # TeaEvents
 ## Page Structure...
+
+```
 .
 ├── Component
 │   ├── css
