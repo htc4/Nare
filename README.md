@@ -36,7 +36,8 @@
 │   ├── teaparty.css
 │   └── teaparty.js
 ├── index.html
-└── style.css
+├── style.css
+└── script.js
 
 ```
 
