@@ -1,174 +1,68 @@
 ﻿* {
     box-sizing: border-box;
-    background-color: red;
+    opacity: 1;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
-body {
-    font-size: 14px;
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
-.main-container {
+.landing {
     width: 100%;
-    height: 976px;
+    height: 80px;
     background: none;
     opacity: 1;
     position: relative;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     overflow: hidden;
 }
 
-.header-container {
+.forland {
     width: 100%;
-    height: 101px;
-    background: url("../images/header-background.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 36px;
-    left: 62px;
-    overflow: hidden;
+    height: 100%;
 }
 
-.navigation-container {
+.new {
     width: 100%;
-    height: 101px;
-    background: url("../images/navigation-background.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: relative;
-    top: 0px;
-    left: 0px;
+    height: 109px;
+    position: fixed;
+    top: 0;
+    left: 1px;
     overflow: hidden;
 }
 
-.logo {
-    width: 314px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 4px;
-    left: 0px;
-    font-family: Nosifer;
-    font-weight: Regular;
-    font-size: 36px;
-    opacity: 1;
-    text-align: left;
+.div1 {
+    width: 100%;
+    height: 80px;
+    background: rgba(63,100,97,0.85);
+    position: fixed;
+    top: 0%;
+    left: 0;
+    border-bottom-left-radius: 134px;
+    border-bottom-right-radius: 134px;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
 }
 
-.tagline {
-    width: 411px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 0px;
-    left: 888px;
-    font-family: Nosifer;
-    font-weight: Regular;
-    font-size: 30px;
+.img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+}
+
+.events, .teaparty, .members, .about, .general, .login {
+    color: rgba(233,229,227,1);
+    font-family: Kurale;
+    font-size: 1.8vw;
     opacity: 1;
     text-align: center;
+    margin-bottom: 3%;
+    width: 10%;
 }
-
-.nav-item1 {
-    width: 54px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 21px;
-    left: 428px;
-    font-family: Roboto;
-    font-weight: Bold;
-    font-size: 20px;
-    opacity: 1;
-    text-align: left;
-}
-
-.nav-item2 {
-    width: 54px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 21px;
-    left: 570px;
-    font-family: Roboto;
-    font-weight: Bold;
-    font-size: 20px;
-    opacity: 1;
-    text-align: left;
-}
-
-.nav-item3 {
-    width: 54px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 21px;
-    left: 728px;
-    font-family: Roboto;
-    font-weight: Bold;
-    font-size: 20px;
-    opacity: 1;
-    text-align: left;
-}
-
-
-
-
-.menu-icon {
-    width: 67px;
-    height: 67px;
-    background: rgba(255,255,255,1);
-    opacity: 1;
-    position: absolute;
-    top: 6px;
-    left: 1248px;
-    overflow: hidden;
-}
-
-.menu-inner {
-    width: 31px;
-    height: 67px;
-    background: url("../images/menu-icon.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 0px;
-    left: 18px;
-    overflow: hidden;
-}
-
-.menu-bar {
-    width: 31px;
-    height: 67px;
-    background: url("../images/menu-bar.svg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
-}
-
-    .menu-bar:nth-child(1) {
-        top: 0;
-    }
-
-    .menu-bar:nth-child(2) {
-        top: 14px;
-    }
-
-    .menu-bar:nth-child(3) {
-        top: 28px;
-    }
-
-    .menu-bar:nth-child(4) {
-        top: 42px;
-    }
-
-    .menu-bar:nth-child(5) {
-        top: 56px;
-    }
