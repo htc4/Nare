@@ -16,7 +16,7 @@ body {
 
 .rectangle {
     width: 420px;
-    height: 850px;
+    height: 700px;
     background-color: #75968da2;
     color: white;
     padding: 20px;
@@ -48,8 +48,7 @@ body {
     margin-bottom: 25px;
 }
 
-.text,
-.title {
+.text, .title {
     font-family: Kurale, serif;
     line-height: 1.3em;
 }
@@ -71,4 +70,23 @@ body {
 
 .open-window-button:hover {
     background-color: #4F5B55;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .rectangle {
+        width: 90%;
+        max-width: 420px;
+    }
+    .text {
+        font-size: 100%;
+    }
+    .title {
+        font-size: 25px;
+        font-weight: bold;
+    }
 }
