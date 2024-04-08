@@ -1,0 +1,151 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+@media (max-width: 500) {
+    .menu_items {
+        justify-content: flex-end; /* Align menu items to the right when screen size is minimized */
+    }
+
+    .menu_toggle {
+        display: block;
+        order: 1; /* Display the menu toggle button first on the left */
+    }
+
+    .menu_items {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        order: 2; /* Display menu items below the toggle button */
+    }
+
+    .menu_items.active {
+        display: flex;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    opacity: 1;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.landing {
+    width: 100%;
+    height: 80px;
+    background: none;
+    opacity: 1;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.forland {
+    width: 100%;
+    height: 100%;
+}
+
+.new {
+    width: 100%;
+    height: 109px;
+    position: fixed;
+    top: 0;
+    left: 1px;
+    overflow: hidden;
+}
+
+.div1 {
+    width: 100%;
+    height: 80px;
+    background: rgba(63,100,97,0.85);
+    position: fixed;
+    top: 0%;
+    left: 0;
+    border-bottom-left-radius: 134px;
+    border-bottom-right-radius: 134px;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+}
+
+.menu_container, .textcolor, .menu_toggle, .menu_items, .menu_item, .div_1, .div_2, .div_3, .divgeneral {
+    font-family: 'Kurale';
+}
+
+.menu_container {
+    color: rgba(233,229,227,1);
+    font-size: 1.8vw;
+    opacity: 1;
+    text-align: center;
+    margin-bottom: 3%;
+    width: 10%;
+}
+
+.menu_container, .div_1, .div_2, .div_3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #EDE3D9;
+    padding: 10px;
+    width: 100%;
+    height: 7%;
+    background: rgba(63,100,97,0.85);
+    position: fixed;
+    top: 0%;
+    left: 0;
+    border-bottom-left-radius: 134px;
+    border-bottom-right-radius: 134px;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.div_3 {
+    position: absolute;
+    right: -40%;
+    bottom: 30%;
+}
+
+.menu_toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    order: 1;
+}
+
+.menu_items {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    order: 3;
+    font-size: 100%;
+}
+
+.menu_item {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #C8B6AC;
+    text-decoration: none;
+}
+
+.menu_item.active {
+    font-weight: bold;
+}
+
+.textcolor {
+    color: #C8B6AC;
+    font-size: 200%;
+}
